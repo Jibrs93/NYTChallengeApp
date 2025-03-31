@@ -30,7 +30,7 @@ final class GetMostPopularArticlesUseCaseTests: XCTestCase {
 
         // Then
         XCTAssertEqual(articles.count, 1)
-        XCTAssertEqual(articles.first?.title, "Artículo de prueba")
+        XCTAssertEqual(articles.first?.title, "Test News")
     }
 
     func testExecuteThrowsError() async {
@@ -38,7 +38,7 @@ final class GetMostPopularArticlesUseCaseTests: XCTestCase {
 
         do {
             _ = try await useCase.execute()
-            XCTFail("Esperaba que lanzara un error, pero no lo hizo")
+            XCTFail("Wait to have Error, but Not")
         } catch {
             XCTAssertTrue(error is APIError)
         }

@@ -42,7 +42,7 @@ final class ArticlesListViewModelTests: XCTestCase {
 
         let expectation = expectation(description: "onError called")
         viewModel.onError = { message in
-            XCTAssertEqual(message, "Ocurrió un error al cargar los artículos.")
+            XCTAssertEqual(message, "Error when error Charge.")
             expectation.fulfill()
         }
 
