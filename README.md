@@ -1,6 +1,6 @@
 # NYTChallengeApp 📱📰
 
-Aplicación iOS desarrollada como challenge técnico. Consulta los artículos más populares del New York Times mediante su API oficial. Permite ver un listado, buscar, consultar detalles y refrescar la información.
+Aplicación iOS desarrollada como challenge técnico. Consulta los artículos más populares del New York Times mediante su API oficial. Permite ver un listado, buscar y consultar detalles de la información.
 
 ---
 
